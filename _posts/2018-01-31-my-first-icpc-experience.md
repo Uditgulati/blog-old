@@ -4,7 +4,7 @@ title:  "My first ICPC experience"
 date:   2018-01-31
 ---
 
-<p class="intro"><span class="dropcap">C</span>ACM-ICPC has been a goal for me since the starting days of my Competitive Programming journey. It's a contest where the bests of bests compete against each other, so the competition is really tough(actually, not so tough :P).</p>
+<p class="intro"><span class="dropcap">A</span>CM-ICPC has been a goal for me since the starting days of my Competitive Programming journey. It's a contest where the bests of bests compete against each other, so the competition is really tough(actually, not so tough :P).</p>
 
 <p class="intro">My ICPC team name is "RootNodes" and team mates are Anurag Bansal and Amit Yadav, two of the finest coders of our college. It was the first time a team was applying from IIIT Una, so we were quite excited. We formed our team during the end of our first year but named it just a couple of weeks before registration.</p>
 
