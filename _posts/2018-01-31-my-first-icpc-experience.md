@@ -55,6 +55,6 @@ Lastly was problem discussion and triveni was the one explaining solutions. He e
 
 Next, we had dinner and then spent the night at park street as it was Christmas and that place was filled with people. That night was well spent. The next day we took flight back to Delhi.
 
-To conclude, the contest went far better than what I expected and our of perfomance was great for first time. We'll be hoping to get an even better rank next time and hopefully **World Final** ;).
+To conclude, the contest went far better than what I expected and our perfomance was very good for first time participation. We'll be hoping to get an even better rank next time and hopefully **World Final** ;).
 
 To view the ranklist or problemset, visit this [link](http://icpckolkata.in/).
