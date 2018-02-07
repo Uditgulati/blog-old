@@ -14,7 +14,7 @@ To check if a given number is prime or not, there are multiple ways.
 
 The most basic one is to just check for all numbers between $$[2, N - 1]$$ that if any of those divides $$N$$ evenly or not. If any of those divides $$N$$, then $$N$$ is not prime, else $$N$$ is prime. Complexity of this approach is $$O(N)$$. 
 
-In the above approach, we are dividing $$N$$ by nearly all positive integers below it. Let's optimise it. Let's say that a number $$X$$ is a divisor of $$N$$, then there must be another number $$Y = N / X$$ which is also a divisor of $$N$$. Also, their product is equal to $$N$$. So, if $$X \leq sqrt(N)$$, then $$Y$$ must be greater than or equal to $$sqrt(N)$$. So, for every divisor of $$N$$ greater than $$sqrt(N)$$, there exist a corresponding divisor of $$N$$ which is lesser than or equal of $$sqrt(N)$$. So, there is no need to go beyond $$sqrt(N)$$. Just check if a number upto $$sqrt(N)$$ divides $$N$$ or not. If so, then $$N$$ is not prime, else it is a prime number.
+In the above approach, we are dividing $$N$$ by nearly all positive integers below it. Let's optimise it. Let's say that a number $$X$$ is a divisor of $$N$$, then there must be another number $$Y = N / X$$ which is also a divisor of $$N$$. Also, their product is equal to $$N$$. So, if $$X \leq \sqrt{N}$$, then $$Y$$ must be greater than or equal to $$\sqrt{N}$$. So, for every divisor of $$N$$ greater than $$\sqrt{N}$$, there exist a corresponding divisor of $$N$$ which is lesser than or equal of $$\sqrt{N}$$. So, there is no need to go beyond $$\sqrt{N}$$. Just check if a number upto $$\sqrt{N}$$ divides $$N$$ or not. If so, then $$N$$ is not prime, else it is a prime number.
 
 # Sieve of Eratosthenes
 
