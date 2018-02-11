@@ -23,9 +23,9 @@ Sieve of Eratosthenes makes use of the concept that only multiples of some prime
 ```
 
 for(int i = 2; i < siz; i++)
-		if(primes[i] == 0)				//If i is prime, mark all it's multiple as composite.
-			for(int j = 2 * i; j < siz; j += i)
-				primes[j] = 1;
+	if(primes[i] == 0) //If i is prime
+		for(int j = 2 * i; j < siz; j += i)
+			primes[j] = 1; //mark all it's multiple as composite.
 
 ```
 
@@ -44,9 +44,9 @@ We can easily find the number of distinct prime factors for each number in a ran
 ```
 
 for(int i = 2; i < siz; i++)
-		if(factors[i] == 0)					//If i is prime,
-			for(int j = i; j < siz; j += i)	//increment no. of factors of it's multiples and
-				factors[j]++; 				//itself by 1.
+	if(factors[i] == 0) //If i is prime,
+		for(int j = i; j < siz; j += i)	//increment no. of factors of it's multiples
+			factors[j]++; 				//and itself by 1.
 
 ```
 
@@ -57,16 +57,15 @@ The best application of Sieve of Eratosthenes is factorisation in $$log(N)$$ tim
 ```
 
 for(int i = 2; i < siz; i++)
-		if(!min_factor[i]) {				//If i is prime, 
-			for(int j = i; j < siz; j += i)	//and for each of it's multiple,
-				if(!min_factor[j])			//If multiple doesn't yet have any
-					min_factor[j] = i;		//smallest factor, make i as one.
-		}
+	if(!min_factor[i]) //If i is prime
+		for(int j = i; j < siz; j += i)	//for each of it's multiple,
+			if(!min_factor[j]) //If multiple doesn't yet have any
+				min_factor[j] = i; //smallest factor, make i as one.
 
 while(n != 1) {
-		int r = min_factor[n];			//Take the smallest multiple
-		printf("%d ", r);				//of val and divide val by it
-		val /= r;						//until it becomes 1.
+	int r = min_factor[n]; //Take the smallest multiple
+	printf("%d ", r);	 //of val and divide val by it
+	val /= r;			//until it becomes 1.
 }
 
 ```
