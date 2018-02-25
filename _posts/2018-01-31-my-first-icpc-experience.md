@@ -51,7 +51,7 @@ After 5th problem was done, only half an hour was left. Next problem was a DP wh
 
 The contest was over and it was time for prize distribution after Lunch. IIT Delhi came first and IIT Patna runner up. We were ranked 25th out of 168 teams, which in my opinion was great for first time participation. After that was a speech by Anup Kalbalia(head of Codechef). He is a good speaker but he only talked about how Codechef is helping improve the coding culture in India. Meanwhile, Me and Anurag were watching El Clasico. Anup's speech just started after the end of 1st half. So, we shifted our focus from the match to him. Funny thing was that match was going 0-0 during 1st half and ended at 3-0 after 2nd half with Barca winning. That day I left no chance to spite my "Real fan" friend :P.
 
-Lastly was problem discussion and triveni was the one explaining solutions. He explained the first 5 problems and aproach was exactly same as ours. After that, he explained the DP problem which went all over my head. Then, he explained that binary search problem and my approach was nearly same as mine. Just that if I had one more hour, I would have solved that one too.
+Lastly was the problem discussion and triveni was the one explaining solutions. He explained the first 5 problems and aproach was exactly same as ours. After that, he explained the DP problem which went all over my head. Then, he explained that binary search problem and his approach was nearly the same as mine. Just that if I had one more hour, I would have solved that one too.
 
 Next, we had dinner and then spent the night at park street as it was Christmas and that place was filled with people. That night was well spent. The next day we took flight back to Delhi.
 
