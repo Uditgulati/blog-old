@@ -46,7 +46,7 @@ The problem states that given a graph and X marked nodes, allocate K heroes such
 
 ## Make 'em One
 
-The problem states that given an array and some value K and a range $$[L, R]$$, find the sum of absolute difference of each element of the range with K. This can be done in $$O(logN)$$ per query using merge sort tree. Construct the merge sort tree of the array and also, store prefix sum of list in the merge sort tree. Use the merge sort tree to get the sum of all values below K and same goes for values above K. Let X be the count of values below K and Y be the count of values above K. Then, answer would be $$(X * K - sum of values below K) + (sum of values above K - Y * K)$$.
+The problem states that given an array and some value K and a range $$[L, R]$$, find the sum of absolute difference of each element of the range with K. This can be done in $$O(logN)$$ per query using merge sort tree. Construct the merge sort tree of the array and also, store prefix sum of list in the merge sort tree. Use the merge sort tree to get the sum of all values below K and same goes for values above K. Let X be the count of values below K and Y be the count of values above K. Then, answer would be $$(X * K - sum\ of\ values\ below\ K) + (sum\ of\ values\ above\ K - Y * K)$$.
 
 [Solution](https://gist.github.com/Uditgulati/3fbc2374655fe4b8df5c0493a87ade77#file-make-em-one-cpp)
 
